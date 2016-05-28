@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{567C0B58-9BDA-4E17-B351-0659F51E2B5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HighEnergyFood", "HighEnergyFood\HighEnergyFood.csproj", "{567C0B58-9BDA-4E17-B351-0659F51E2B5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+    <script src="assets/libs/angular/angular.min.js"></script>
+    <script src="assets/libs/angular/angular-resource.min.js"></script>
+    <script src="app/script.js"></script>
+</head>
+<body ng-controller="mainCtrl">
+    <div id="api-test">
+        <h1>Nutritionix API Search</h1>
+        <div id="input">
+            <input type="search" placeholder="Search text" ng-model="data.searchKey" />
+            <button class="button" ng-click="doSearch()">Search</button>
+        </div>
+        <div id="output" ng-repeat="item in items">
+            <p>Brand: {{item.fields.brand_name}} | Item: {{item.fields.item_name}} | Cal: {{item.fields.nf_calories / 10}} | Sugar: {{item.fields.nf_sugars}} | Protein: {{item.fields.nf_protein}}</p>
+        </div>
+    </div>
+</body>
+</html>
