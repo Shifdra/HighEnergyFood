@@ -17,7 +17,6 @@
         console.debug("Searching for: " + $scope.data.searchKey);
 
         if (true) {
-
             // use the $resource based service
             var promise = DataService.getAll({
                 'term': $scope.data.searchKey,
